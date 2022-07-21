@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     var jsonData = jsonDecode(res.body);
     String msg = jsonData['msg'];
-    if (msg == "Exist") {
+    if (msg == "Exists") {
     } else if (msg == "Failed") {
     } else {
       MTD.jumpScreen(context, const SignIn());
